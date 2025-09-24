@@ -2,7 +2,7 @@ export default function Experience() {
   return (
     <section id="experience" className="py-20 px-6 bg-white">
       <h2 className="text-3xl font-bold text-center text-blue-600 mb-10">Expériences Professionnelles</h2>
-      <div className="space-y-6 max-w-3xl mx-auto">
+      <div className="space-y-6 max-w-5xl mx-auto">
         <div className="bg-gray-100 p-6 rounded-xl shadow">
           <h3 className="font-bold">Stage PFE – ONCF (02/2025 - 06/2025)</h3>
           <p>Développement d’une API .NET pour synchroniser les données financières entre SQL Server et Oracle EBS.</p>
