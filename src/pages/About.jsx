@@ -15,6 +15,8 @@ export default function About() {
       <div className="mt-8 max-w-5xl mx-auto">
         <h3 className="text-2xl font-semibold text-blue-500 mb-4">🎓 Formations</h3>
         <ul className="space-y-3 text-gray-700">
+          <li> 📌 <strong>Formation Cybersécurité – Jobintech </strong>  ENSI Rabat  <span className="text-sm text-gray-500"> Depuis septembre 2025 – en cours</span>
+    </li>
           <li>📌 <strong>Master en Technologies de l’Information et Sciences des Données</strong> – Institut Supérieur Vinci, Rabat <span className="text-sm text-gray-500">2023 – 2025</span></li>
           <li>📌 <strong>Licence en Technologies de l’Information</strong> – Institut Supérieur Vinci, Rabat <span className="text-sm text-gray-500">2022 – 2023</span></li>
           <li>📌 <strong>Technicien Spécialisé en Développement Informatique</strong> – ISTA Hay Salam, Salé <span className="text-sm text-gray-500">2019 – 2021</span></li>

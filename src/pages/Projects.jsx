@@ -1,5 +1,12 @@
 export default function Projects() {
   const projets = [
+      {
+      titre: "📌 Supervision Réseau – Projet Nagios",
+      description:
+        "Mise en place d’une plateforme de monitoring réseau avec Nagios : configuration des checks de services, alertes, notifications, détection automatique d’anomalies et simulation de pannes pour tester la réactivité du système.",
+      techno: "Nagios, Ubuntu, Kali Linux, CentOS, NRPE, Nagios Plugins",
+      lien: "#"
+    },
     {
       titre: "📌 API SyncFinance",
       description: "Développement d’une API .NET pour synchroniser les données financières (factures, paiements, états des comptes) entre SQL Server et Oracle EBS.",
@@ -34,7 +41,7 @@ export default function Projects() {
       titre: "📌 Portfolio Personnel",
       description: "Création de mon portfolio en ligne pour présenter mes projets, compétences et expériences.",
       techno: "React, TailwindCSS, Vite",
-      lien: "#" // tu pourras mettre ton lien GitHub ou ton déploiement Netlify/Vercel
+      lien: "#" 
     }
   ];
 
