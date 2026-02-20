@@ -1,72 +1,72 @@
 export default function Projects() {
   const projets = [
-      {
-      titre: "📌 Supervision Réseau – Projet Nagios",
+    {
+      titre: "📡 Supervision Réseau – Projet Nagios",
       description:
-        "Mise en place d’une plateforme de monitoring réseau avec Nagios : configuration des checks de services, alertes, notifications, détection automatique d’anomalies et simulation de pannes pour tester la réactivité du système.",
-      techno: "Nagios, Ubuntu, Kali Linux, CentOS, NRPE, Nagios Plugins",
-      lien: "#"
+        "Mise en place d’une plateforme complète de monitoring réseau avec configuration des checks de services, alertes, notifications, détection automatique d’anomalies et simulation de pannes.",
+      techno: "Ubuntu, Kali Linux, CentOS, NRPE, Nagios Plugins"
     },
     {
-      titre: "📌 API SyncFinance",
-      description: "Développement d’une API .NET pour synchroniser les données financières (factures, paiements, états des comptes) entre SQL Server et Oracle EBS.",
-      techno: ".NET, PL/SQL, Oracle, SQL Server",
-      lien: "#"
+      titre: "📱 Application Mobile – React Native",
+      description:
+        "Développement d’une application mobile avec gestion d’état global via Redux, configuration de la navigation et création de composants réutilisables.",
+      techno: "React Native, Redux, React Navigation"
     },
     {
-      titre: "📌 Plateforme de gestion des CVs",
-      description: "Application web pour gérer les CVs des candidats. Développée lors de mon stage PFC chez Adservio.",
-      techno: "Angular, TailwindCSS, Supabase",
-      lien: "#"
+      titre: "✈️ Agence de Voyage",
+      description:
+        "Conception et développement d’une application de gestion d’agence de voyage avec architecture MVC.",
+      techno: "Java JEE, Spring Boot"
     },
     {
-      titre: "📌 Projet Hoppy & Maintenance e-commerce",
-      description: "Participation au développement du projet Hoppy et maintenance de sites (Kechmara, OEK) avec PrestaShop.",
-      techno: "HTML5, CSS3, JS, SASS, PrestaShop",
-      lien: "#"
+      titre: "🌐 API SyncFinance",
+      description:
+        "Développement d’une API .NET pour la synchronisation de données financières entre SQL Server et Oracle EBS avec optimisation des requêtes PL/SQL.",
+      techno: ".NET, PL/SQL, Oracle, SQL Server"
     },
     {
-      titre: "📌 Application mobile e-commerce",
-      description: "Développement d’une application mobile avec gestion d’état global via Redux et navigation entre écrans.",
-      techno: "React Native, Redux, React Navigation",
-      lien: "#"
+      titre: "🖥️ Plateforme de Gestion des CVs",
+      description:
+        "Application web full-stack avec Angular pour le front-end et Supabase pour la gestion des données et API.",
+      techno: "Angular, TailwindCSS, Supabase"
     },
     {
-      titre: "📌 Agence de Voyage",
-      description: "Projet académique de gestion d’une agence de voyage avec Spring Boot et Java JEE.",
-      techno: "Java JEE, Spring Boot",
-      lien: "#"
+      titre: "🛒 Projet Hoppy & Maintenance e-commerce",
+      description:
+        "Participation au développement du projet Hoppy et maintenance de plusieurs sites e-commerce en production.",
+      techno: "HTML, CSS, SASS, JavaScript, PrestaShop"
     },
     {
-      titre: "📌 Portfolio Personnel",
-      description: "Création de mon portfolio en ligne pour présenter mes projets, compétences et expériences.",
-      techno: "React, TailwindCSS, Vite",
-      lien: "#" 
+      titre: "💻 Portfolio Personnel",
+      description:
+        "Création d’un portfolio moderne pour présenter mes projets, compétences et expériences.",
+      techno: "React, TailwindCSS, Vite"
     }
   ];
 
   return (
     <section id="projects" className="py-20 px-6 bg-white">
-      <h2 className="text-3xl font-bold text-center text-blue-600">Mes Projets</h2>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10 max-w-6xl mx-auto">
+      <h2 className="text-3xl font-bold text-center text-blue-600">
+        Projets Académiques & Professionnels
+      </h2>
+
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 max-w-6xl mx-auto">
         {projets.map((projet, index) => (
           <div
             key={index}
-            className="bg-gray-50 shadow-lg p-6 rounded-xl hover:shadow-2xl transition"
+            className="bg-gray-50 shadow-md p-6 rounded-2xl hover:shadow-xl transition duration-300"
           >
-            <h3 className="text-xl font-bold text-gray-800">{projet.titre}</h3>
-            <p className="mt-2 text-gray-600">{projet.description}</p>
-            <p className="mt-2 text-sm text-blue-600 font-semibold">Technologies : {projet.techno}</p>
-            {projet.lien !== "#" && (
-              <a
-                href={projet.lien}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-4 inline-block text-blue-500 hover:underline"
-              >
-                🔗 Voir le projet
-              </a>
-            )}
+            <h3 className="text-lg font-bold text-gray-800">
+              {projet.titre}
+            </h3>
+
+            <p className="mt-3 text-gray-600 text-sm leading-relaxed">
+              {projet.description}
+            </p>
+
+            <p className="mt-4 text-sm font-semibold text-blue-600">
+              Technologies : {projet.techno}
+            </p>
           </div>
         ))}
       </div>
