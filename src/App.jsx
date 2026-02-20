@@ -8,6 +8,7 @@ import Experience from "./pages/Experience";
 import Engagement from "./pages/Engagement";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
   return (
@@ -35,6 +36,8 @@ export default function App() {
           <Route path="/experience" element={<Experience />} />
         </Routes>
       </main>
+      {/* 🔥 Bouton retour en haut */}
+      <ScrollToTop />
       <Footer />
     </div>
   );
