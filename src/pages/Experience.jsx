@@ -1,5 +1,13 @@
 export default function Experience() {
   const experiences = [
+     {
+      titre: "Stage - functional consultant",
+      entreprise: "alexsys solutions - Rabat",
+      date: "30 Mars 2026 ",
+      description:
+        "Participation à l’analyse des besoins métiers, rédaction des spécifications fonctionnelles et accompagnement des équipes techniques dans la mise en œuvre des solutions.",
+      techno: ""
+    },
     {
       titre: "Stage PFE – Développement & Sécurité Applicative",
       entreprise: "ONCF – Rabat",
