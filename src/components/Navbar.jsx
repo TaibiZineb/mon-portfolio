@@ -1,9 +1,13 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import { useLocation } from "react-router-dom";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
+  const activeClass = "text-orange-400 font-semibold";
+  const normalClass = "hover:text-orange-400 transition";
 
   return (
     <nav className="bg-gradient-to-r bg-[#1f2937] text-white shadow-lg  text-white p-4">
@@ -45,12 +49,16 @@ export default function Navbar() {
 
         {/* Menu desktop */}
         <ul className="hidden md:flex gap-6">
-          <li><Link to="/">Accueil</Link></li>
-          <li><HashLink smooth to="/#about" className="hover:text-orange-400">À propos</HashLink></li>
-          <li><Link to="/projects" className="hover:text-orange-400">Projects</Link></li>
-          <li><Link to="/experience" className="hover:text-orange-400">Expériences</Link></li>
-          <li><Link to="/skills" className="hover:text-orange-400">Skills</Link></li>
-          <li><HashLink smooth to="/#contact" className="hover:text-orange-400">Contact</HashLink></li>
+          <li> <Link
+              to="/"
+              className={location.pathname === "/" ? activeClass : normalClass}
+            >Accueil</Link></li>
+          <li><HashLink smooth to="/#about" className={location.pathname === "/experience" ? activeClass : normalClass} >À propos</HashLink></li>
+          <li><Link to="/projects" className={location.pathname === "/projects" ? activeClass : normalClass}>Projects</Link></li>
+          <li>   <Link to="/experience" className={location.pathname === "/experience" ? activeClass : normalClass}>
+              Expériences </Link></li>
+          <li><Link to="/skills" className={location.pathname === "/skills" ? activeClass : normalClass}>Skills</Link></li>
+          <li><HashLink smooth to="/#contact" className={location.pathname === "/contact" ? activeClass : normalClass}>Contact</HashLink></li>
         </ul>
       </div>
 
