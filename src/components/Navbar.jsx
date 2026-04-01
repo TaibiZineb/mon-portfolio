@@ -49,16 +49,46 @@ export default function Navbar() {
 
         {/* Menu desktop */}
         <ul className="hidden md:flex gap-6">
-          <li> <Link
-              to="/"
-              className={location.pathname === "/" ? activeClass : normalClass}
-            >Accueil</Link></li>
-          <li><HashLink smooth to="/#about" className={location.pathname === "/experience" ? activeClass : normalClass} >À propos</HashLink></li>
+         
+
+             <li>
+  <Link
+    to="/"
+    className={
+      location.pathname === "/" && !location.hash
+        ? activeClass
+        : normalClass
+    }
+  >
+    Accueil
+  </Link>
+</li>
+          <li><HashLink
+  smooth
+  to="/#about"
+  className={
+    location.pathname === "/" && location.hash === "#about"
+      ? activeClass
+      : normalClass
+  }
+>
+  À propos
+</HashLink></li>
           <li><Link to="/projects" className={location.pathname === "/projects" ? activeClass : normalClass}>Projects</Link></li>
           <li>   <Link to="/experience" className={location.pathname === "/experience" ? activeClass : normalClass}>
               Expériences </Link></li>
           <li><Link to="/skills" className={location.pathname === "/skills" ? activeClass : normalClass}>Skills</Link></li>
-          <li><HashLink smooth to="/#contact" className={location.pathname === "/contact" ? activeClass : normalClass}>Contact</HashLink></li>
+          <li><HashLink
+  smooth
+  to="/#contact"
+  className={
+    location.pathname === "/" && location.hash === "#contact"
+      ? activeClass
+      : normalClass
+  }
+>
+  Contact
+</HashLink></li>
         </ul>
       </div>
 

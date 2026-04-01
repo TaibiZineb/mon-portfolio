@@ -92,7 +92,7 @@ export default function Experience() {
         Expériences Professionnelles
       </h2>
 
-      <div className="mt-12 space-y-8 max-w-5xl mx-auto">
+      <div className="mt-12 space-y-8 max-w-5xl mx-auto ">
         {experiences.map((exp, index) => (
           <div
             key={index}

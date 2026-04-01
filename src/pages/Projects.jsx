@@ -1,4 +1,4 @@
-  import {RadioTower, ShieldCheck, Server, Smartphone, Plane, Globe, Database, LayoutDashboard, ShoppingCart, Code2, Monitor} from "lucide-react";
+  import {RadioTower, Smartphone, Plane, Globe, Database, LayoutDashboard, ShoppingCart, Code2, Monitor, Code} from "lucide-react";
   
   export default function Projects() {
   const projets = [
@@ -15,18 +15,22 @@
     },
     {
       titre: (
-      <div className="flex items-center gap-2 text-orange-600 font-semibold"><Smartphone size={20} />Application Mobile – React Native
-      </div>
+      <div className="flex items-center gap-3 font-semibold">
+          <div className="bg-orange-100 p-2 rounded-full"><Smartphone size={18} className="text-orange-600" /></div>
+          Application Mobile – React Native
+        </div>
       ),
-     
+
       description:
         "Développement d’une application mobile avec gestion d’état global via Redux, configuration de la navigation et création de composants réutilisables.",
       techno: "React Native, Redux, React Navigation"
     },
     {
       titre: (
-        <div className="flex items-center gap-2 text-orange-600 font-semibold"> <Plane size={20} />Agence de Voyage
-        </div>
+         <div className="flex items-center gap-3 font-semibold">
+          <div className="bg-orange-100 p-2 rounded-full"><Plane size={18} className="text-orange-600" /></div>
+          Agence de Voyage
+        </div>        
       ),
       description:
         "Conception et développement d’une application de gestion d’agence de voyage avec architecture MVC.",
@@ -34,7 +38,11 @@
     },
     {
       titre: (
-        <div className="flex items-center gap-2 text-orange-600 font-semibold"> <Globe size={20} /> API SyncFinance
+
+
+     <div className="flex items-center gap-3 font-semibold">
+          <div className="bg-orange-100 p-2 rounded-full"><Globe size={18} className="text-orange-600" /></div>
+          API SyncFinance
         </div>
       ),
       description:
@@ -43,8 +51,11 @@
     },
     {
       titre: (
-    <div className="flex items-center gap-2 text-orange-600 font-semibold"><LayoutDashboard size={20} /> Plateforme de Gestion des CVs
-    </div>
+         <div className="flex items-center gap-3 font-semibold">
+          <div className="bg-orange-100 p-2 rounded-full"><LayoutDashboard size={18} className="text-orange-600" /></div>
+          Plateforme de Gestion des CVs
+        </div>
+    
   ),
       description:
         "Application web full-stack avec Angular pour le front-end et Supabase pour la gestion des données et API.",
@@ -52,8 +63,12 @@
     },
     {
       titre: (
-    <div className="flex items-center gap-2 text-orange-600 font-semibold"><ShoppingCart size={20} />Projet Hoppy & Maintenance e-commerce
-    </div>
+
+         <div className="flex items-center gap-3 font-semibold">
+          <div className="bg-orange-100 p-2 rounded-full"><ShoppingCart size={18} className="text-orange-600" /></div>
+          Projet Hoppy & Maintenance e-commerce
+        </div>
+  
   ),
       description:
         "Participation au développement du projet Hoppy et maintenance de plusieurs sites e-commerce en production.",
@@ -61,8 +76,12 @@
     },
     {
       titre: (
-        <div className="flex items-center gap-2 text-orange-600 font-semibold"><Code2 size={20} />Portfolio Personnel
+
+         <div className="flex items-center gap-3 font-semibold">
+          <div className="bg-orange-100 p-2 rounded-full"><Code size={18} className="text-orange-600" /></div>
+          Portfolio Personnel
         </div>
+        
       ),
       description:
         "Création d’un portfolio moderne pour présenter mes projets, compétences et expériences.",
@@ -71,23 +90,16 @@
   ];
 
   return (
-    <section id="projects" className="py-20 px-6 bg-white">
+    <section id="projects" className="py-20 px-6 bg-orange-50">
       <h2 className="text-3xl font-bold text-center text-orange-600">
         Projets Académiques & Professionnels
       </h2>
-
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 max-w-6xl mx-auto">
         {projets.map((projet, index) => (
-          <div
-            key={index}
-            className=" bg-gradient-to-b from-white to-orange-50shadow-md p-6 rounded-2xl hover:shadow-xl transition duration-300"
-          >
-            <div className="flex items-center gap-3 mb-3">
-  {projet.icon}
-  <h3 className="text-lg font-bold text-gray-800">
-    {projet.titre}
-  </h3>
-</div>
+          <div key={index} className=" bg-gradient-to-b from-white to-orange-50 shadow-md p-6 rounded-2xl hover:shadow-xl transition duration-300">
+          <div className="flex items-center gap-3 mb-3">{projet.icon}
+          <h3 className="text-lg font-bold text-gray-800">{projet.titre}</h3>
+          </div>
             
 
             <p className="mt-3 text-gray-600 text-sm leading-relaxed">
