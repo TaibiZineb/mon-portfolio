@@ -1,7 +1,19 @@
+  import {
+  Server,
+  Smartphone,
+  Plane,
+  Database,
+  LayoutDashboard,
+  ShoppingCart,
+  User
+} from "lucide-react";
+
+
 export default function Experience() {
   const experiences = [
      {
       titre: "Stage - functional consultant",
+      
       entreprise: "alexsys solutions - Rabat",
       date: "30 Mars 2026 ",
       description:
@@ -10,6 +22,7 @@ export default function Experience() {
     },
     {
       titre: "Stage PFE – Développement & Sécurité Applicative",
+      
       entreprise: "ONCF – Rabat",
       date: "Fév. 2025 – Juin 2025",
       description:
@@ -18,6 +31,7 @@ export default function Experience() {
     },
     {
       titre: "Stage PFC – Développement Web Full Stack",
+      
       entreprise: "Adservio – Casablanca",
       date: "Avr. 2023 – Sept. 2023",
       description:
@@ -74,7 +88,7 @@ export default function Experience() {
 
   return (
     <section className="py-20 px-6 bg-gray-50">
-      <h2 className="text-3xl font-bold text-center text-blue-600">
+      <h2 className="text-3xl font-bold text-center text-orange-600">
         Expériences Professionnelles
       </h2>
 
@@ -84,19 +98,24 @@ export default function Experience() {
             key={index}
             className="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition"
           >
-            <h3 className="text-lg font-bold text-gray-800">{exp.titre}</h3>
+             <div className="flex items-center gap-3 mb-3">
+    {exp.icon}
+    <h3 className="text-lg font-bold text-gray-800">
+      {exp.titre}
+    </h3>
+  </div>
             <p className="text-sm text-gray-500">
               {exp.entreprise} | {exp.date}
             </p>
             <p className="mt-3 text-gray-600 whitespace-pre-line">{exp.description}</p>
             {exp.techno && (
-  <p className="mt-3 text-sm font-semibold text-blue-600">
+  <p className="mt-3 text-sm font-semibold text-orange-600">
     Technologies : {exp.techno}
   </p>
 )}
 
 {exp.domaine && (
-  <p className="mt-3 text-sm font-semibold text-blue-600">
+  <p className="mt-3 text-sm font-semibold text-orange-600">
     Domaine : {exp.domaine}
   </p>
 )}

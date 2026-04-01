@@ -1,7 +1,16 @@
+import { ShieldCheck, Wrench, Terminal, Code } from "lucide-react";
+
 export default function Skills() {
   const skills = [
     {
-      category: "🔐 Cybersécurité & Systèmes",
+      category: (
+  <div className="flex items-center gap-3 font-semibold">
+    <div className="bg-orange-100 p-2 rounded-full">
+      <ShieldCheck size={18} className="text-orange-600" />
+    </div>
+    Cybersécurité & Systèmes
+  </div>
+),
       items: [
         "Sécurité applicative",
         "Sécurisation des API",
@@ -14,7 +23,14 @@ export default function Skills() {
       ]
     },
     {
-      category: "🛠 Outils & Conception",
+      category: (
+  <div className="flex items-center gap-3 font-semibold">
+    <div className="bg-orange-100 p-2 rounded-full">
+      <Wrench size={18} className="text-orange-600" />
+    </div>
+    Outils & Conception
+  </div>
+),
       items: [
         "Git / GitHub",
         "Vercel",
@@ -24,7 +40,14 @@ export default function Skills() {
       ]
     },
     {
-      category: "💻 Développement",
+      category: (
+  <div className="flex items-center gap-3 font-semibold">
+    <div className="bg-orange-100 p-2 rounded-full">
+      <Code size={18} className="text-orange-600" />
+    </div>
+    Développement
+  </div>
+),
       items: [
         "HTML5 / CSS3 / SASS",
         "JavaScript",
@@ -43,7 +66,7 @@ export default function Skills() {
 
   return (
     <section id="skills" className="py-20 px-6 bg-gray-50">
-      <h2 className="text-3xl font-bold text-center text-blue-600">
+      <h2 className="text-3xl font-bold text-center text-orange-600">
         Compétences
       </h2>
 

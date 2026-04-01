@@ -10,6 +10,7 @@ import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 
+
 export default function App() {
   return (
     <div className="bg-gray-100 min-h-screen flex flex-col">

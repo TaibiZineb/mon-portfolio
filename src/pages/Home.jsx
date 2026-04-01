@@ -1,11 +1,16 @@
+import { Code, Database, ShieldCheck, Layers, Monitor,Hand} from "lucide-react";
 export default function Home() {
   return (
-    <section id="home" className="text-center py-20 bg-white">
-      <h2 className="text-4xl font-bold text-blue-600">👋 Bonjour, je suis TAIBI Zineb</h2>
-      <h2 className="text-2xl font-bold text-blue-600">Développeuse Fullstack | .NET | Angular | Data Science</h2>
+  <section id="home" className="min-h-screen flex flex-col justify-center items-center text-center px-6 bg-gradient-to-b from-white to-orange-50" >
+  <h1 className="text-4xl md:text-6xl font-bold flex items-center gap-3 animate-fadeIn"><Hand size={35}className="text-orange-500" />Bonjour, je suis <span className="text-orange-500">TAIBI Zineb</span></h1>
 
-      
-       
-    </section>
+  <p className="mt-8 text-lg md:text-2xl font-medium text-gray-700 flex flex-wrap justify-center gap-6">
+    <span className="flex items-center gap-2"><Layers size={20} className="text-orange-500" /> Fullstack</span>
+    <span className="flex items-center gap-2"><Database size={20} className="text-orange-500" />.NET / Angular
+    </span>
+    <span className="flex items-center gap-2"><ShieldCheck size={20} className="text-orange-500" />Data & Security
+    </span>
+  </p>
+</section>
   );
 }

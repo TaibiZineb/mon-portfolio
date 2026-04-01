@@ -1,19 +1,33 @@
-export default function Projects() {
+  import {
+  Server,
+  Smartphone,
+  Plane,
+  Database,
+  LayoutDashboard,
+  ShoppingCart,
+  User
+} from "lucide-react";
+  
+  export default function Projects() {
   const projets = [
     {
       titre: "📡 Supervision Réseau – Projet Nagios",
+      icon: <Server size={28} className="text-orange-500" />,
       description:
         "Mise en place d’une plateforme complète de monitoring réseau avec configuration des checks de services, alertes, notifications, détection automatique d’anomalies et simulation de pannes.",
       techno: "Ubuntu, Kali Linux, CentOS, NRPE, Nagios Plugins"
     },
     {
       titre: "📱 Application Mobile – React Native",
+      
+       image: "/images/mobile.png",
       description:
         "Développement d’une application mobile avec gestion d’état global via Redux, configuration de la navigation et création de composants réutilisables.",
       techno: "React Native, Redux, React Navigation"
     },
     {
       titre: "✈️ Agence de Voyage",
+      image: "/images/Java JEE,Spring Boot.webp",
       description:
         "Conception et développement d’une application de gestion d’agence de voyage avec architecture MVC.",
       techno: "Java JEE, Spring Boot"
@@ -46,7 +60,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className="py-20 px-6 bg-white">
-      <h2 className="text-3xl font-bold text-center text-blue-600">
+      <h2 className="text-3xl font-bold text-center text-orange-600">
         Projets Académiques & Professionnels
       </h2>
 
@@ -54,17 +68,28 @@ export default function Projects() {
         {projets.map((projet, index) => (
           <div
             key={index}
-            className="bg-gray-50 shadow-md p-6 rounded-2xl hover:shadow-xl transition duration-300"
+            className=" bg-gradient-to-b from-white to-orange-50shadow-md p-6 rounded-2xl hover:shadow-xl transition duration-300"
           >
-            <h3 className="text-lg font-bold text-gray-800">
-              {projet.titre}
-            </h3>
+            <div className="flex items-center gap-3 mb-3">
+  {projet.icon}
+  <h3 className="text-lg font-bold text-gray-800">
+    {projet.titre}
+  </h3>
+</div>
+            
 
             <p className="mt-3 text-gray-600 text-sm leading-relaxed">
               {projet.description}
             </p>
+            {projet.image && (
+              <img
+                src={projet.image}
+                alt={projet.titre}
+                className="w-full h-48 object-cover rounded-xl mb-4"
+              />
+            )}
 
-            <p className="mt-4 text-sm font-semibold text-blue-600">
+            <p className="mt-4 text-sm font-semibold text-orange-600">
               Technologies : {projet.techno}
             </p>
           </div>
