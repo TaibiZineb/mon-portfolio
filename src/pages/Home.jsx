@@ -1,7 +1,7 @@
 import { Code, Database, ShieldCheck, Layers, Monitor,Hand} from "lucide-react";
 export default function Home() {
   return (
-  <section id="home" className="min-h-screen flex flex-col justify-center items-center text-center px-6 bg-gradient-to-b from-white to-orange-50" >
+  <section id="home" className="min-h-screen flex flex-col justify-center items-center text-center px-6 bg-orange-100" >
   <h1 className="text-4xl md:text-6xl font-bold flex items-center gap-3 animate-fadeIn"><Hand size={35}className="text-orange-500" />Bonjour, je suis <span className="text-orange-500">TAIBI Zineb</span></h1>
 
   <p className="mt-8 text-lg md:text-2xl font-medium text-gray-700 flex flex-wrap justify-center gap-6">

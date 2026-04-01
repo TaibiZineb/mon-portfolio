@@ -13,7 +13,7 @@ import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
   return (
-    <div className="bg-gray-100 min-h-screen flex flex-col">
+    <div className="bg-orange-50 min-h-screen flex flex-col">
       <Navbar />
       <main className="flex-grow">
         <Routes>

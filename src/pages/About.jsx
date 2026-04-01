@@ -1,7 +1,7 @@
 import { GraduationCap, Award,Handshake } from "lucide-react";
 export default function About() {
   return (
-    <section id="about" className="py-20 px-6 bg-white">
+    <section id="about" className="py-20 px-6 bg-orange-50">
       <h2 className="text-4xl font-bold text-center text-orange-600 mb-10">À propos</h2>
       <div className="bg-white shadow-xl rounded-3xl p-10 text-center leading-relaxed text-gray-700">
         <p>

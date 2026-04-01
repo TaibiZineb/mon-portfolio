@@ -1,8 +1,8 @@
 export default function Contact() {
   return (
-    <section id="contact" className="bg-gray-50 py-20 text-center">
+    <section id="contact" className="bg-orange-50 py-20 text-center from-white px-6">
       <h2 className="text-3xl font-bold text-orange-600">Contact</h2>
-
+<div className="bg-white shadow-xl rounded-3xl p-10 text-center leading-relaxed text-gray-700">
       {/* Email cliquable */}
       <p className="mt-4">
         📧 Email :{" "}
@@ -44,6 +44,7 @@ export default function Contact() {
           github.com/TaibiZineb
         </a>
       </p>
+      </div>
     </section>
   );
 }
