@@ -5,7 +5,7 @@
     {
       titre: (
         <div className="flex items-center gap-3 font-semibold">
-          <div className="bg-orange-100 p-2 rounded-full"><RadioTower size={18} className="text-orange-600" /></div>
+          <div className="bg-[var(--violet-light)] p-2 rounded-full"><RadioTower size={18} className="text-[var(--accent)]" /></div>
           Supervision Réseau – Projet Nagios
         </div>
       ),
@@ -16,7 +16,7 @@
     {
       titre: (
       <div className="flex items-center gap-3 font-semibold">
-          <div className="bg-orange-100 p-2 rounded-full"><Smartphone size={18} className="text-orange-600" /></div>
+          <div className="bg-[var(--violet-light)] p-2 rounded-full"><Smartphone size={18} className="text-[var(--accent)]" /></div>
           Application Mobile – React Native
         </div>
       ),
@@ -28,7 +28,7 @@
     {
       titre: (
          <div className="flex items-center gap-3 font-semibold">
-          <div className="bg-orange-100 p-2 rounded-full"><Plane size={18} className="text-orange-600" /></div>
+          <div className="bg-[var(--violet-light)] p-2 rounded-full"><Plane size={18} className="text-[var(--accent)]" /></div>
           Agence de Voyage
         </div>        
       ),
@@ -41,7 +41,7 @@
 
 
      <div className="flex items-center gap-3 font-semibold">
-          <div className="bg-orange-100 p-2 rounded-full"><Globe size={18} className="text-orange-600" /></div>
+          <div className="bg-[var(--violet-light)] p-2 rounded-full"><Globe size={18} className="text-[var(--accent)]" /></div>
           API SyncFinance
         </div>
       ),
@@ -52,7 +52,7 @@
     {
       titre: (
          <div className="flex items-center gap-3 font-semibold">
-          <div className="bg-orange-100 p-2 rounded-full"><LayoutDashboard size={18} className="text-orange-600" /></div>
+          <div className="bg-[var(--violet-light)] p-2 rounded-full"><LayoutDashboard size={18} className="text-[var(--accent)]" /></div>
           Plateforme de Gestion des CVs
         </div>
     
@@ -65,7 +65,7 @@
       titre: (
 
          <div className="flex items-center gap-3 font-semibold">
-          <div className="bg-orange-100 p-2 rounded-full"><ShoppingCart size={18} className="text-orange-600" /></div>
+          <div className="bg-[var(--violet-light)] p-2 rounded-full"><ShoppingCart size={18} className="text-[var(--accent)]" /></div>
           Projet Hoppy & Maintenance e-commerce
         </div>
   
@@ -78,7 +78,7 @@
       titre: (
 
          <div className="flex items-center gap-3 font-semibold">
-          <div className="bg-orange-100 p-2 rounded-full"><Code size={18} className="text-orange-600" /></div>
+          <div className="bg-[var(--violet-light)] p-2 rounded-full"><Code size={18} className="text-[var(--accent)]" /></div>
           Portfolio Personnel
         </div>
         
@@ -90,13 +90,13 @@
   ];
 
   return (
-    <section id="projects" className="py-20 px-6 bg-orange-50">
-      <h2 className="text-3xl font-bold text-center text-orange-600">
+    <section id="projects" className="py-20 px-6 bg-[var(--background)]">
+      <h2 className="text-3xl font-bold text-center text-[var(--accent)]">
         Projets Académiques & Professionnels
       </h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 max-w-6xl mx-auto">
         {projets.map((projet, index) => (
-          <div key={index} className=" bg-gradient-to-b from-white to-orange-50 shadow-md p-6 rounded-2xl hover:shadow-xl transition duration-300">
+          <div key={index} className=" bg-gradient-to-br from-white to-purple-100 shadow-md p-6 rounded-2xl hover:shadow-xl transition duration-300">
           <div className="flex items-center gap-3 mb-3">{projet.icon}
           <h3 className="text-lg font-bold text-gray-800">{projet.titre}</h3>
           </div>
@@ -113,7 +113,7 @@
               />
             )}
 
-            <p className="mt-4 text-sm font-semibold text-orange-600">
+            <p className="mt-4 text-sm font-semibold text-[var(--accent)]">
               Technologies : {projet.techno}
             </p>
           </div>

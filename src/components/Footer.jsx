@@ -8,24 +8,24 @@ export default function Footer() {
 
         {/* Nom */}
         <h3 className="text-xl font-semibold text-white">
-          TAIBI <span className="text-orange-500">Zineb</span>
+          TAIBI <span className="text-[var(--accent)]">Zineb</span>
         </h3>
 
         {/* Icônes sociales */}
         <div className="flex justify-center gap-6">
-          <a href="https://github.com/TaibiZineb" className="hover:text-orange-500 transition">
+          <a href="https://github.com/TaibiZineb" className="hover:text-[var(--accent)] transition">
             <Github size={22} />
           </a>
-          <a href="https://www.linkedin.com/in/zineb-taibi" className="hover:text-orange-500 transition">
+          <a href="https://www.linkedin.com/in/zineb-taibi" className="hover:text-[var(--accent)] transition">
             <Linkedin size={22} />
           </a>
-          <a href="mailto:taibizineb96@gmail.com" className="hover:text-orange-500 transition">
+          <a href="mailto:taibizineb96@gmail.com" className="hover:text-[var(--accent)] transition">
             <Mail size={22} />
           </a>
         </div>
 
         {/* Ligne */}
-        <div className="w-16 h-1 bg-orange-500 mx-auto rounded-full"></div>
+        <div className="w-16 h-1 bg-[var(--background)] mx-auto rounded-full"></div>
 
         {/* Copyright */}
         <p className="text-sm">

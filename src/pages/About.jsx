@@ -1,8 +1,8 @@
 import { GraduationCap, Award,Handshake } from "lucide-react";
 export default function About() {
   return (
-    <section id="about" className="py-20 px-6 bg-orange-50">
-      <h2 className="text-4xl font-bold text-center text-orange-600 mb-10">À propos</h2>
+    <section id="about" className="py-20 px-6 bg-[var(--background)]">
+      <h2 className="text-4xl font-bold text-center text-[var(--accent)]  mb-10">À propos</h2>
       <div className="bg-white shadow-xl rounded-3xl p-10 text-center leading-relaxed text-gray-700">
         <p>
           Diplômée d’un Master en Technologies de l’Information et Sciences des Données,
@@ -28,7 +28,7 @@ export default function About() {
         <div className="grid md:grid-cols-3 gap-8 mt-16">
           {/* Formations */}
           <div className="bg-white shadow-lg rounded-2xl p-6 hover:shadow-2xl transition">
-            <h3 className="text-xl font-semibold text-orange-500 mb-4 flex items-center gap-2"><GraduationCap size={22} />Formations</h3>
+            <h3 className="text-xl font-semibold text-[var(--accent)] mb-4 flex items-center gap-2"><GraduationCap size={22} />Formations</h3>
             <ul className="space-y-3 text-gray-700 text-sm">
               <li> <strong>Formation Cybersécurité – Jobintech </strong>  ENSI Rabat  <span className="text-sm text-gray-500">Septembre 2025 – Février 2026</span></li>
               <li><strong>Master en Technologies de l’Information et Sciences des Données</strong> – Institut Supérieur Vinci, Rabat <span className="text-sm text-gray-500">2023 – 2025</span></li>
@@ -41,7 +41,7 @@ export default function About() {
           {/* Certifications */}
           <div className="bg-white shadow-lg rounded-2xl p-6 hover:shadow-2xl transition">
             
-               <h3 className="text-xl font-semibold text-orange-500 mb-4 flex items-center gap-2"><Award size={22} />Certifications</h3>  
+               <h3 className="text-xl font-semibold text-[var(--accent)] mb-4 flex items-center gap-2"><Award size={22} />Certifications</h3>  
             <ul className="space-y-3 text-gray-700 text-sm">
               <li>Certificat d’accomplissement : <strong>L’essentiel de PHP 8</strong></li>
               <li> Certificat d’accomplissement : <strong>L’essentiel de PrestaShop</strong></li>
@@ -53,7 +53,7 @@ export default function About() {
           </div>
           {/* Engagement */}
           <div className="bg-white shadow-lg rounded-2xl p-6 hover:shadow-2xl transition">
-            <h3 className="text-xl font-semibold text-orange-500 mb-4 flex items-center gap-2"><Handshake size={22} />Engagement associatif</h3>
+            <h3 className="text-xl font-semibold text-[var(--accent)] mb-4 flex items-center gap-2"><Handshake size={22} />Engagement associatif</h3>
             <ul className="space-y-3 text-gray-700 text-sm"><strong>Association Joody</strong>
               <li>  Accompagnement éducatif et soutien aux orphelins</li>
               <li> Animation d’activités et aide scolaire</li>
