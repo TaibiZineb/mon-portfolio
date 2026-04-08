@@ -4,69 +4,61 @@ export default function Skills() {
   const skills = [
     {
       category: (
-  <div className="flex items-center gap-3 font-semibold">
-    <div className="bg-[var(--violet-light)] p-2 rounded-full">
-      <ShieldCheck size={18} className="text-[var(--accent)]" />
-    </div>
-    Cybersécurité & Systèmes
-  </div>
-),
+        <div className="flex items-center gap-3 font-semibold">
+          <div className="bg-[var(--violet-light)] p-2 rounded-full">
+            <Code size={18} className="text-[var(--accent)]" />
+          </div>
+          Développement
+        </div>
+      ),
       items: [
-        "Sécurité applicative",
-        "Sécurisation des API",
-        "Authentification & Contrôle d’accès",
-        "Linux (Ubuntu, Kali, CentOS)",
-        "Supervision système",
-        "Monitoring réseau",
-        "Protection des données",
-        "Initiation SOC"
+        "Frontend : HTML5, CSS3, SASS, JavaScript, Angular, React, Tailwind CSS",
+        "Backend : .NET, Java (Spring Boot), PHP, Python (bases), architecture MVC",
+        "Mobile : React Native",
+        "API REST",
+        "Bases de données : Oracle, SQL, PL/SQL"
       ]
     },
+
     {
       category: (
-  <div className="flex items-center gap-3 font-semibold">
-    <div className="bg-[var(--violet-light)] p-2 rounded-full">
-      <Wrench size={18} className="text-[var(--accent)]" />
-    </div>
-    Outils & Conception
-  </div>
-),
+        <div className="flex items-center gap-3 font-semibold">
+          <div className="bg-[var(--violet-light)] p-2 rounded-full">
+            <ShieldCheck size={18} className="text-[var(--accent)]" />
+          </div>
+          Cybersécurité & Systèmes
+        </div>
+      ),
       items: [
-        "Git / GitHub",
-        "Vercel",
-        "Toad for Oracle",
-        "UML",
-        "Cahier des charges"
+        "Sécurité applicative et sécurisation des API",
+        "Authentification et contrôle d’accès",
+        "Supervision et monitoring (Nagios)",
+        "Systèmes : Linux (Ubuntu, Kali, CentOS)",
+        "Initiation SOC (analyse et détection d’incidents)"
       ]
     },
+
     {
       category: (
-  <div className="flex items-center gap-3 font-semibold">
-    <div className="bg-[var(--violet-light)] p-2 rounded-full">
-      <Code size={18} className="text-[var(--accent)]" />
-    </div>
-    Développement
-  </div>
-),
+        <div className="flex items-center gap-3 font-semibold">
+          <div className="bg-[var(--violet-light)] p-2 rounded-full">
+            <Wrench size={18} className="text-[var(--accent)]" />
+          </div>
+          Outils & Méthodologies
+        </div>
+      ),
       items: [
-        "HTML5 / CSS3 / SASS",
-        "JavaScript",
-        "Angular",
-        "React / React Native",
-        "TailwindCSS",
-        ".NET",
-        "Java (Spring Boot)",
-        "Python",
-        "PL/SQL / SQL / Oracle",
-        "PHP",
-        "Frameworks MVC"
+        "Git, GitHub, Vercel",
+        "TOAD for Oracle",
+        "UML, rédaction de cahier des charges",
+        "Travail en méthodologie Agile"
       ]
     }
   ];
 
   return (
     <section id="skills" className="py-20 px-6 bg-[var(--background)]">
-      <h2 className="text-3xl font-bold text-center text-[var(--accent)]">
+      <h2 className="text-3xl font-bold text-center text-[var(--accent)] mb-8 max-w-2xl mx-auto">
         Compétences
       </h2>
 
@@ -74,7 +66,7 @@ export default function Skills() {
         {skills.map((section, index) => (
           <div
             key={index}
-            className="bg-gradient-to-b from-white via-purple-50 to-purple-100 shadow-md p-6 rounded-2xl hover:shadow-xl transition"
+            className="bg-gradient-to-b from-white via-purple-50 to-purple-100 shadow-md p-6 rounded-2xl hover:shadow-xl hover:-translate-y-1 transition duration-300"
           >
             <h3 className="text-lg font-bold text-gray-800 mb-4">
               {section.category}

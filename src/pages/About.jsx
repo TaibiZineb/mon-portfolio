@@ -4,24 +4,13 @@ export default function About() {
     <section id="about" className="py-20 px-6 bg-[var(--background)]">
       <h2 className="text-4xl font-bold text-center text-[var(--accent)]  mb-10">À propos</h2>
       <div className="bg-white shadow-xl rounded-3xl p-10 text-center leading-relaxed text-gray-700">
-        <p>
-          Diplômée d’un Master en Technologies de l’Information et Sciences des Données,
-          je suis à la recherche d’une opportunité en développement logiciel, idéalement
-          en environnement Full Stack ou applicatif. Passionnée par la conception
-          d’applications web et d’API performantes, j’ai acquis une expérience concrète
-          en développement, optimisation et intégration de solutions en contexte professionnel.
-        </p>
-        <p className="mt-6">
-          En parallèle, je me spécialise en cybersécurité à travers une formation
-          dédiée (Jobintech – ENSI), avec un intérêt particulier pour la sécurité
-          applicative, la protection des données et la supervision des systèmes.
-        </p>
+        <p>Diplômée d’un Master en Technologies de l’Information et Sciences des Données, je suis à la recherche d’une opportunité en développement logiciel, idéalement en environnement Full Stack ou applicatif. Passionnée par la conception d’applications web et d’API performantes, j’ai acquis une expérience concrète en développement, optimisation et intégration de solutions en contexte professionnel.</p>
 
-        <p className="mt-6">
-          Rigoureuse, autonome et dotée d’un fort esprit d’équipe, je souhaite intégrer
-          une entreprise innovante où je pourrai contribuer activement aux projets
-          techniques tout en développant des solutions performantes et sécurisées.
-        </p>
+        <p className="mt-6"> En parallèle, j’ai suivi une formation intensive de quatre mois en cybersécurité (Jobintech – ENSI), renforçant mes compétences en sécurité applicative, protection des données, supervision des systèmes et bonnes pratiques de sécurité.</p>
+        <p className="mt-6">Actuellement en stage en tant que consultante fonctionnelle chez Alexsys Solutions, je contribue à l’analyse des besoins métiers, à la rédaction des spécifications fonctionnelles et à l’accompagnement des projets, me permettant d’acquérir une double compétence technique et fonctionnelle.</p>
+
+        <p className="mt-6">Rigoureuse, autonome et dotée d’un fort esprit d’équipe, je souhaite intégrer une entreprise innovante où je pourrai contribuer activement aux projets techniques tout en développant des solutions performantes et sécurisées.</p>
+        
       </div>
 
       <div className="mt-10 max-w-5xl mx-auto">

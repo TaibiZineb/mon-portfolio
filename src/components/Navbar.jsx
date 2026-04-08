@@ -84,7 +84,7 @@ export default function Navbar() {
           <li><Link to="/projects" className={location.pathname === "/projects" ? activeClass : normalClass}>Projects</Link></li>
           <li>   <Link to="/experience" className={location.pathname === "/experience" ? activeClass : normalClass}>
               Expériences </Link></li>
-          <li><Link to="/skills" className={location.pathname === "/skills" ? activeClass : normalClass}>Skills</Link></li>
+          <li><Link to="/skills" className={location.pathname === "/skills" ? activeClass : normalClass}>Compétences</Link></li>
           <li><HashLink
   smooth
   to="/#contact"
