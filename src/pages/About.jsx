@@ -42,7 +42,7 @@ export default function About() {
       </div>
 
       {/* Cartes */}
-      <div className="mt-12 max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+      <div id="formations"className="mt-12 max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
         {/* Formations */}
         <div className="bg-white shadow-lg rounded-2xl p-6 hover:shadow-2xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between min-h-[350px]">
            <div className="bg-[var(--accent)]/15 text-[var(--accent)] text-xs px-3 py-1 rounded-full font-medium shadow-sm hover:bg-[var(--accent-g)] hover:text-white transition">
