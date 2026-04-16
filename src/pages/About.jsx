@@ -45,12 +45,12 @@ export default function About() {
       <div className="mt-12 max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
         {/* Formations */}
         <div className="bg-white shadow-lg rounded-2xl p-6 hover:shadow-2xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between min-h-[350px]">
-           <div className="bg-[var(--accent)]/15 text-[var(--accent)] text-xs px-3 py-1 rounded-full font-medium shadow-sm hover:bg-[var(--accent)] hover:text-white transition">
+           <div className="bg-[var(--accent)]/15 text-[var(--accent)] text-xs px-3 py-1 rounded-full font-medium shadow-sm hover:bg-[var(--accent-g)] hover:text-white transition">
            <h3 className="text-xl font-semibold text-[var(--accent)] mb-4 flex items-center gap-2 hover:text-white">
            <GraduationCap size={22} />
             Formations
           </h3></div>
-          <div className="w-10 h-1 bg-[var(--accent)] rounded-full mb-4"></div>
+          
           <ul className="space-y-4 text-gray-700 text-sm">
             <li className="border-b pb-2">
               <strong>Formation Cybersécurité – Jobintech</strong>
@@ -98,7 +98,7 @@ export default function About() {
 
         {/* Certifications */}
         <div className="bg-white shadow-lg rounded-2xl p-6 hover:shadow-2xl hover:-translate-y-1 transition duration-300">
-          <div className="bg-[var(--accent)]/15 text-[var(--accent)] text-xs px-3 py-1 rounded-full font-medium shadow-sm hover:bg-[var(--accent)] hover:text-white transition"><h3 className="text-xl font-semibold text-[var(--accent)] mb-4 flex items-center gap-2 hover:text-white">
+          <div className="bg-[var(--accent)]/15 text-[var(--accent)] text-xs px-3 py-1 rounded-full font-medium shadow-sm hover:bg-[var(--accent-g)] hover:text-white transition"><h3 className="text-xl font-semibold text-[var(--accent)] mb-4 flex items-center gap-2 hover:text-white">
              <Award size={22} />
             Certifications
           </h3></div>
@@ -118,7 +118,7 @@ export default function About() {
 
         {/* Engagement */}
         <div className="bg-white shadow-lg rounded-2xl p-6 hover:shadow-2xl hover:-translate-y-1 transition duration-300">
-          <div className="bg-[var(--accent)]/15 text-[var(--accent)] text-xs px-3 py-1 rounded-full font-medium shadow-sm hover:bg-[var(--accent)] hover:text-white transition"><h3 className="text-xl font-semibold text-[var(--accent)] mb-4 flex items-center gap-2 hover:text-white">
+          <div className="bg-[var(--accent)]/15 text-[var(--accent)] text-xs px-3 py-1 rounded-full font-medium shadow-sm hover:bg-[var(--accent-g)] hover:text-white transition"><h3 className="text-xl font-semibold text-[var(--accent)] mb-4 flex items-center gap-2 hover:text-white">
            <Handshake size={22} />
             Engagement associatif
           </h3></div>

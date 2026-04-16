@@ -18,7 +18,8 @@
   --primary: #111827;       /* Gris foncé */
   --secondary: #1f2937;     /* Gris moyen */
   --accent: #8b5cf6;        /* Violet */
-  --accent-light: #a78bfa;  /* Violet clair */
+  --accent-light: #a78bfa; 
+  --accent-g: #b0abbe;  /* Violet clair */
   --background: #f9fafb;    /* Gris clair */
   --text-dark: #111827;
   --violet-light: #cdc6e3;
