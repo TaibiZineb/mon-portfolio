@@ -103,6 +103,16 @@ export default function Navbar() {
     </li>
 
     <li>
+      <HashLink
+        smooth
+        to="/#formations"
+        className="block hover:text-[var(--accent-light)] transition"
+        onClick={() => setIsOpen(false)}
+      >
+        Formations
+      </HashLink>
+    </li>
+       <li>
       <Link 
         to="/experience" 
         className="block hover:text-[var(--accent-light)] transition"
@@ -111,7 +121,6 @@ export default function Navbar() {
         Expériences
       </Link>
     </li>
-
     <li>
       <Link 
         to="/skills" 
