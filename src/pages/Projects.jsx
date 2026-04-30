@@ -96,7 +96,9 @@
       </h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 max-w-6xl mx-auto">
         {projets.map((projet, index) => (
-          <div key={index} className=" bg-gradient-to-br from-white to-purple-100 shadow-md p-6 rounded-2xl hover:shadow-xl transition duration-300">
+          <div key={index}  className={`bg-gradient-to-br from-white to-purple-100 shadow-md p-6 rounded-2xl hover:shadow-xl transition duration-300
+    ${index === projets.length - 1 ? "lg:col-span-3 lg:mx-auto lg:w-1/3" : ""}`}>
+            
           <div className="flex items-center gap-3 mb-3">{projet.icon}
           <h3 className="text-lg font-bold text-gray-800">{projet.titre}</h3>
           </div>
