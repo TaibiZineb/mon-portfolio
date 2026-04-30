@@ -25,7 +25,7 @@ export default function Footer() {
         </div>
 
         {/* Ligne */}
-        <div className="w-16 h-1 bg-[var(--background)] mx-auto rounded-full"></div>
+        <div className="w-16 h-1 bg-[var(--background)] mx-auto rounded-full dark:bg-[var(--accent)]"></div>
 
         {/* Copyright */}
         <p className="text-sm">

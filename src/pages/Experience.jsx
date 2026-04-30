@@ -96,7 +96,7 @@ export default function Experience() {
         {experiences.map((exp, index) => (
           <div
             key={index}
-            className="bg-gradient-to-b from-white via-purple-50 to-purple-100 p-6 rounded-2xl shadow-md hover:shadow-xl transition"  
+            className="bg-gradient-to-b from-white via-purple-50 to-purple-100 p-6 rounded-2xl shadow-md hover:shadow-xl transition"
           >
              <div className="flex items-center gap-3 mb-3">
     {exp.icon}
