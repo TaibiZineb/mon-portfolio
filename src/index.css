@@ -12,19 +12,30 @@
   }
 }
 
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
 
 /* Couleurs globales */
 :root {
-  --primary: #111827;       /* Gris foncé */
-  --secondary: #1f2937;     /* Gris moyen */
-  --accent: #8b5cf6;        /* Violet */
+  --primary: #111827;       
+  --secondary: #1f2937;     
+  --accent: #8b5cf6;        
   --accent-light: #a78bfa; 
-  --accent-g: #b0abbe;  /* Violet clair */
-  --background: #f9fafb;    /* Gris clair */
+  --accent-g: #b0abbe;  
+  --background: #f9fafb;   
   --text-dark: #111827;
   --violet-light: #cdc6e3;
+  --violet: #6f4dd6;
 }
 
+.dark {
+  --primary: #eceef4ec;
+  --background: #020617;
+  --accent: #6f4dd6;
+  --accent-light: #c4b5fd;
+  --violet-light: #1e1b4b;
+}
 
 .animate-fadeIn {
   animation: fadeIn 1s ease-out forwards;
