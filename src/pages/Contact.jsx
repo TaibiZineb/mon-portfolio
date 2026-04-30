@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <section id="contact" className="bg-[var(--background)] py-20 text-center from-white px-10">
       <h2 className="text-3xl font-bold text-[var(--accent)] py-5 ">Contact</h2>
-       <div className="max-w-3xl mx-auto bg-white shadow-xl rounded-3xl p-8 space-y-6 text-gray-700">
+       <div className="max-w-3xl mx-auto bg-gradient-to-br from-white to-purple-100 shadow-xl rounded-3xl p-8 space-y-6 text-gray-700">
 
   {/* Email */}
   <div className="flex items-center gap-4">

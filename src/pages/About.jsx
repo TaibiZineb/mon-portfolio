@@ -8,7 +8,7 @@ export default function About() {
       </h2>
 
       {/* Bloc présentation */}
-      <div className="max-w-5xl mx-auto bg-white shadow-xl rounded-3xl p-8 md:p-10 text-center leading-relaxed text-gray-700 space-y-6">
+      <div className="max-w-5xl mx-auto bg-gradient-to-br from-white to-purple-100 shadow-xl rounded-3xl p-8 md:p-10 text-center leading-relaxed text-gray-700 space-y-6">
         <p>
           Diplômée d’un Master en Technologies de l’Information et Sciences des
           Données, je suis à la recherche d’une opportunité en développement
@@ -44,7 +44,7 @@ export default function About() {
       {/* Cartes */}
       <div id="formations"className="mt-12 max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
         {/* Formations */}
-        <div className="bg-white shadow-lg rounded-2xl p-6 hover:shadow-2xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between min-h-[350px]">
+        <div className="bg-gradient-to-br from-white to-purple-100 shadow-lg rounded-2xl p-6 hover:shadow-2xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between min-h-[350px]">
            <div className="bg-[var(--accent)]/15 text-[var(--accent)] text-xs px-3 py-1 rounded-full font-medium shadow-sm hover:bg-[var(--accent-g)] hover:text-white transition">
            <h3 className="text-xl font-semibold justify-center text-center text-[var(--accent)] mb-4 flex items-center gap-2 hover:text-white">
            <GraduationCap size={22} />
@@ -97,7 +97,7 @@ export default function About() {
         </div>
 
         {/* Certifications */}
-        <div className="bg-white shadow-lg rounded-2xl p-6 hover:shadow-2xl hover:-translate-y-1 transition duration-300">
+        <div className="bg-gradient-to-br from-white to-purple-100 shadow-lg rounded-2xl p-6 hover:shadow-2xl hover:-translate-y-1 transition duration-300">
           <div className="bg-[var(--accent)]/15 text-[var(--accent)] text-xs px-3 py-1 rounded-full font-medium shadow-sm hover:bg-[var(--accent-g)] hover:text-white transition"><h3 className="text-xl font-semibold justify-center text-center text-[var(--accent)] mb-4 flex items-center gap-2 hover:text-white">
              <Award size={22} />
             Certifications
@@ -117,7 +117,7 @@ export default function About() {
         </div>
 
         {/* Engagement */}
-        <div className="bg-white shadow-lg rounded-2xl p-6 hover:shadow-2xl hover:-translate-y-1 transition duration-300">
+        <div className="bg-gradient-to-br from-white to-purple-100 shadow-lg rounded-2xl p-6 hover:shadow-2xl hover:-translate-y-1 transition duration-300">
           <div className="bg-[var(--accent)]/15 text-[var(--accent)] text-xs px-3 py-1 rounded-full font-medium shadow-sm hover:bg-[var(--accent-g)] hover:text-white transition"><h3 className="text-xl font-semibold justify-center text-centertext-[var(--accent)] mb-4 flex items-center gap-2 hover:text-white">
            <Handshake size={22} />
             Engagement associatif

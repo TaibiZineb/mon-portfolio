@@ -3,11 +3,11 @@ import { Github, Linkedin, Mail } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-300 py-8 mt-20">
+    <footer className="bg-gray-900 text-gray-300 py-8 mt-20 dark:bg-[var(--primary)] dark:text-black">
       <div className="max-w-6xl mx-auto px-6 text-center space-y-6">
 
         {/* Nom */}
-        <h3 className="text-xl font-semibold text-white">
+        <h3 className="text-xl font-semibold text-white dark:text-black">
           TAIBI <span className="text-[var(--accent)]">Zineb</span>
         </h3>
 
