@@ -30,7 +30,7 @@ export default function Experience() {
       techno: ".NET, PL/SQL, Oracle"
     },
     {
-      titre: "Stage PFC – Développement Web Full Stack",
+      titre: "Stage PFC (Projet fin de Cycle)– Développement Web Full Stack",
       
       entreprise: "Adservio – Casablanca",
       date: "Avr. 2023 – Sept. 2023",

@@ -11,7 +11,8 @@
       ),
       description:
         "Mise en place d’une plateforme complète de monitoring réseau avec configuration des checks de services, alertes, notifications, détection automatique d’anomalies et simulation de pannes.",
-      techno: "Ubuntu, Kali Linux, CentOS, NRPE, Nagios Plugins"
+      techno: "Ubuntu, Kali Linux, CentOS, NRPE, Nagios Plugins",
+       type: "Configuration système (Linux / Nagios)"
     },
     {
       titre: (
@@ -38,8 +39,6 @@
     },
     {
       titre: (
-
-
      <div className="flex items-center gap-3 font-semibold">
           <div className="bg-[var(--violet-light)] dark:bg-[var(--accent-light)]  p-2 rounded-full"><Globe size={18} className="text-[var(--accent)]" /></div>
           API SyncFinance
@@ -47,7 +46,8 @@
       ),
       description:
         "Développement d’une API .NET pour la synchronisation de données financières entre SQL Server et Oracle EBS avec optimisation des requêtes PL/SQL.",
-      techno: ".NET, PL/SQL, Oracle, SQL Server"
+      techno: ".NET, PL/SQL, Oracle, SQL Server",
+      github: "https://github.com/TaibiZineb/APISync",
     },
     {
       titre: (
@@ -59,7 +59,8 @@
       ),
       description:
         "Application web full-stack avec Angular pour le front-end et Supabase pour la gestion des données et API.",
-      techno: "Angular, TailwindCSS, Supabase"
+      techno: "Angular, TailwindCSS, Supabase",
+      github: "https://github.com/TaibiZineb/projet_stage"
     },
     {
       titre: (
@@ -84,7 +85,9 @@
       ),
       description:
         "Création d’un portfolio moderne pour présenter mes projets, compétences et expériences.",
-      techno: "React, TailwindCSS, Vite"
+      techno: "React, TailwindCSS, Vite",
+      github: "https://github.com/TaibiZineb/mon-portfolio",
+
     }
   ];
 
@@ -104,6 +107,14 @@
               <img src={projet.image} alt={projet.titre} className="w-full h-48 object-cover rounded-xl mb-4"/>
             )}
             <p className="mt-4 text-sm font-semibold text-[var(--accent)]"> Technologies : {projet.techno}</p>
+            <div className="mt-4 flex gap-3">
+              {projet.github && (
+                <a href={projet.github}target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gray-800 text-white rounded-lg text-sm hover:bg-gray-900 transition"> GitHub</a>
+              )}
+              {projet.type && (
+                <span className=" text-sm italic text-[var(--accent)]"> {projet.type}</span>
+              )}
+            </div>
           </div>
         ))}
       </div>
