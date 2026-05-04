@@ -5,7 +5,7 @@ export default function Skills() {
     {
       category: (
         <div className="flex items-center gap-3 font-semibold">
-          <div className="bg-[var(--violet-light)] p-2 rounded-full">
+          <div className="bg-[var(--violet-light)] dark:bg-[var(--accent-light)] p-2 rounded-full">
             <Code size={18} className="text-[var(--accent)]" />
           </div>
           Développement
@@ -23,7 +23,7 @@ export default function Skills() {
     {
       category: (
         <div className="flex items-center gap-3 font-semibold">
-          <div className="bg-[var(--violet-light)] p-2 rounded-full">
+          <div className="bg-[var(--violet-light)] dark:bg-[var(--accent-light)] p-2 rounded-full">
             <ShieldCheck size={18} className="text-[var(--accent)]" />
           </div>
           Cybersécurité & Systèmes
@@ -41,7 +41,7 @@ export default function Skills() {
     {
       category: (
         <div className="flex items-center gap-3 font-semibold">
-          <div className="bg-[var(--violet-light)] p-2 rounded-full">
+          <div className="bg-[var(--violet-light)] dark:bg-[var(--accent-light)] p-2 rounded-full">
             <Wrench size={18} className="text-[var(--accent)]" />
           </div>
           Outils & Méthodologies

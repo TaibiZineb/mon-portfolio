@@ -5,7 +5,7 @@
     {
       titre: (
         <div className="flex items-center gap-3 font-semibold">
-          <div className="bg-[var(--violet-light)] p-2 rounded-full"><RadioTower size={18} className="text-[var(--accent)]" /></div>
+          <div className="bg-[var(--violet-light)] dark:bg-[var(--accent-light)] p-2 rounded-full"><RadioTower size={18} className="text-[var(--accent)]" /></div>
           Supervision Réseau – Projet Nagios
         </div>
       ),
@@ -16,7 +16,7 @@
     {
       titre: (
       <div className="flex items-center gap-3 font-semibold">
-          <div className="bg-[var(--violet-light)] p-2 rounded-full"><Smartphone size={18} className="text-[var(--accent)]" /></div>
+          <div className="bg-[var(--violet-light)] dark:bg-[var(--accent-light)]  p-2 rounded-full"><Smartphone size={18} className="text-[var(--accent)]" /></div>
           Application Mobile – React Native
         </div>
       ),
@@ -28,7 +28,7 @@
     {
       titre: (
          <div className="flex items-center gap-3 font-semibold">
-          <div className="bg-[var(--violet-light)] p-2 rounded-full"><Plane size={18} className="text-[var(--accent)]" /></div>
+          <div className="bg-[var(--violet-light)] dark:bg-[var(--accent-light)] p-2 rounded-full"><Plane size={18} className="text-[var(--accent)]" /></div>
           Agence de Voyage
         </div>        
       ),
@@ -41,7 +41,7 @@
 
 
      <div className="flex items-center gap-3 font-semibold">
-          <div className="bg-[var(--violet-light)] p-2 rounded-full"><Globe size={18} className="text-[var(--accent)]" /></div>
+          <div className="bg-[var(--violet-light)] dark:bg-[var(--accent-light)]  p-2 rounded-full"><Globe size={18} className="text-[var(--accent)]" /></div>
           API SyncFinance
         </div>
       ),
@@ -52,7 +52,7 @@
     {
       titre: (
          <div className="flex items-center gap-3 font-semibold">
-          <div className="bg-[var(--violet-light)] p-2 rounded-full"><LayoutDashboard size={18} className="text-[var(--accent)]" /></div>
+          <div className="bg-[var(--violet-light)] dark:bg-[var(--accent-light)] p-2 rounded-full"><LayoutDashboard size={18} className="text-[var(--accent)]" /></div>
           Plateforme de Gestion des CVs
         </div>
     
@@ -65,7 +65,7 @@
       titre: (
 
          <div className="flex items-center gap-3 font-semibold">
-          <div className="bg-[var(--violet-light)] p-2 rounded-full"><ShoppingCart size={18} className="text-[var(--accent)]" /></div>
+          <div className="bg-[var(--violet-light)] dark:bg-[var(--accent-light)] p-2 rounded-full"><ShoppingCart size={18} className="text-[var(--accent)]" /></div>
           Projet Hoppy & Maintenance e-commerce
         </div>
   
@@ -78,7 +78,7 @@
       titre: (
 
          <div className="flex items-center gap-3 font-semibold">
-          <div className="bg-[var(--violet-light)] p-2 rounded-full"><Code size={18} className="text-[var(--accent)]" /></div>
+          <div className="bg-[var(--violet-light)] dark:bg-[var(--accent-light)] p-2 rounded-full"><Code size={18} className="text-[var(--accent)]" /></div>
           Portfolio Personnel
         </div>
         
