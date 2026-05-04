@@ -112,7 +112,6 @@
               <span key={i} className="bg-purple-100 dark:bg-[var(--accent-light)] text-purple-700 text-xs px-3 py-1 rounded-full font-medium">{techno}</span>
               ))}
             </div>
-            
             <div className="mt-4 flex gap-3">
               {projet.github && (
                 <a href={projet.github}target="_blank" rel="noopener noreferrer" className="px-4 py-2  text-white rounded-lg text-sm bg-[var(--accent)] hover:bg-[var(--accent-light)] transition"> GitHub</a>

@@ -1,4 +1,4 @@
-  import { Code, Database, ShieldCheck, Layers, Monitor, Hand, Download, FileText } from "lucide-react";
+  import { Code, Database, ShieldCheck, Layers, Monitor, Hand, Download, FileText, GithubIcon } from "lucide-react";
 
 export default function Home() {
   return (
@@ -15,11 +15,17 @@ export default function Home() {
           <span className="flex items-center gap-2">
             <ShieldCheck size={20} className="text-[var(--accent)]" />Data & Security</span>
         </p>
-        {/*  BOUTON CV */}
         <div className="mt-8 flex justify-center">
-          <a href="/TAIBI Zineb_CV.pdf"download className="inline-flex items-center gap-2 bg-[var(--accent)] text-white px-6 py-3 rounded-xl shadow-md hover:scale-105 transition">
-          <FileText size={18} className="animate-bounce" /> Télécharger mon CV</a>
+          <a href="/TAIBI Zineb_CV.pdf"
+            download className="group inline-flex items-center gap-2 bg-[var(--accent)] text-white px-6 py-3 rounded-xl shadow-md border border-transparent hover:bg-white hover:text-[var(--accent)] hover:border-[var(--accent)] hover:scale-105 transition">
+            <FileText size={18} className="animate-bounce text-white group-hover:text-[var(--accent)] transition"/>Télécharger mon CV
+          </a>
         </div>
+        <div className="mt-8 flex justify-center">
+          <a href="https://github.com/TaibiZineb" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 border border-[var(--accent)] text-[var(--accent)] px-6 py-3 rounded-xl hover:bg-[var(--accent)] hover:text-white transition group">
+          <GithubIcon size={20} className="text-[var(--accent)] group-hover:text-white transition"/> GitHub</a>
+        </div>
+       
       </div>
     </section>
   );
