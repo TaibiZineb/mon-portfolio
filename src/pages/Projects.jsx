@@ -9,8 +9,13 @@
           Supervision Réseau – Projet Nagios
         </div>
       ),
-      description:
-        "Mise en place d’une plateforme complète de monitoring réseau avec configuration des checks de services, alertes, notifications, détection automatique d’anomalies et simulation de pannes.",
+      description: (
+        <>  <p>Déploiement d’une plateforme de supervision réseau avec Nagios pour surveiller les services critiques d’une infrastructure IT.</p>
+          <p className="mt-2">Configuration de checks personnalisés, alertes et notifications pour assurer une surveillance proactive et la détection rapide d’anomalies.</p>
+          <p className="mt-2">Simulation de pannes pour tester la robustesse et améliorer la surveillance du système</p>
+          <p className="mt-3 text-sm font-semibold text-[var(--accent)]">   Résultat : <span className="text-green-500 font-bold">infrastructure supervisée et fiable</span></p>
+        </>
+      ),
       techno: ["Ubuntu", "Kali Linux", "CentOS", "NRPE", "Nagios Plugins"],
        type: "Configuration système (Linux / Nagios)"
     },
@@ -21,9 +26,14 @@
           Application Mobile – React Native
         </div>
       ),
+      description:(
+        <><p>Développement d’une application mobile avec React Native pour la gestion de tâches personnelles.</p>
+          <p className="mt-2">Mise en place d’une architecture de gestion d’état global avec Redux pour assurer une expérience utilisateur fluide et réactive.</p>
+          <p className="mt-2">Intégration de la navigation avec React Navigation et création de composants réutilisables pour améliorer la maintenabilité et la performance de l’application.</p>
+          <p className="mt-3 text-sm font-semibold text-[var(--accent)]">Résultat : <span className="text-green-500 font-bold">application fonctionnelle et performante</span></p>
+        </>
 
-      description:
-        "Développement d’une application mobile avec gestion d’état global via Redux, configuration de la navigation et création de composants réutilisables.",
+      ),
       techno: ["React Native", "Redux", "React Navigation"]
     },
     {
@@ -33,8 +43,15 @@
           Agence de Voyage
         </div>        
       ),
-      description:
-        "Conception et développement d’une application de gestion d’agence de voyage avec architecture MVC.",
+      description:(
+          <><p>Conception et développement d’une application de gestion d’agence de voyage basée sur une architecture MVC.</p>    
+              <p className="mt-2">
+      Réalisation des diagrammes UML et rédaction du cahier des charges pour structurer les besoins métiers et techniques.
+    </p>  
+          <p className="mt-2">Implémentation des fonctionnalités clés : gestion des réservations, clients et services.</p>
+          <p className="mt-3 text-sm font-semibold text-[var(--accent)]">Résultat : <span className="text-green-500 font-bold">application fonctionnelle et évolutive</span></p>
+        </> 
+      ),
       techno: ["Java JEE", "Spring Boot"]
     },
     {
@@ -44,8 +61,19 @@
           API SyncFinance
         </div>
       ),
-      description:
-        "Développement d’une API .NET permettant la synchronisation des données financières entre SQL Server et Oracle EBS, réduisant le temps de traitement et améliorant la fiabilité des échanges. Optimisation des requêtes PL/SQL pour améliorer les performances de l’API, réduisant les temps de réponse de 30% et assurant une meilleure gestion des ressources.",
+     description: (
+      <>
+    <p>Développement d’une API .NET pour la synchronisation automatisée des données financières entre SQL Server et Oracle EBS.</p>
+          <p className="mt-2">
+      Analyse des besoins, réalisation des diagrammes UML et rédaction du cahier des charges pour cadrer le projet.
+    </p>
+    <p className="mt-2">
+      Optimisation des requêtes PL/SQL ayant permis de réduire le temps de traitement et d’améliorer la fiabilité des échanges.</p>
+     <p className="mt-2 font-semibold text-[var(--accent)]">
+      Résultat : <span className="text-green-500 font-bold">+30% performance</span>
+    </p>
+    </>
+    ),
       techno:   [".NET", "PL/SQL", "Oracle", "SQL Server"],
       github: "https://github.com/TaibiZineb/APISync",
     },
@@ -57,8 +85,25 @@
         </div>
     
       ),
-      description:
-        "Application web full-stack avec Angular pour le front-end et Supabase pour la gestion des données et API.",
+      
+
+      description: (
+      <> <p>Développement d’une application web full-stack avec Angular pour le front-end et Supabase pour la gestion des données.</p>
+          <p className="mt-2">
+      Réalisation des diagrammes UML et rédaction du cahier des charges afin de structurer les besoins et définir l’architecture.
+    </p>
+     <p className="mt-2">Conception d’interfaces utilisateur responsives avec Tailwind CSS et intégration de fonctionnalités de gestion des CVs pour améliorer l’expérience utilisateur.</p>
+        <p className="mt-2">Intégration d’une API et conception d’interfaces responsives pour améliorer l’expérience utilisateur.</p>
+          <p className="mt-3 text-sm font-semibold text-[var(--accent)]">
+      Résultat :
+      <span className="ml-2 text-green-500 font-bold">
+        plateforme fonctionnelle et performante
+      </span>
+    </p>
+    
+    </>
+    ),
+        
      
       techno: ["Angular", "TailwindCSS", "Supabase"],
       github: "https://github.com/TaibiZineb/projet_stage"
@@ -71,8 +116,15 @@
         </div>
   
       ),
-      description:
-        "Participation au développement du projet Hoppy et maintenance de plusieurs sites e-commerce en production.",
+      description: (
+        <>
+          <p>Participation au développement du projet web Hoppy et maintenance de plusieurs sites e-commerce sous PrestaShop.</p>  
+          <p className="mt-2">Intégration de nouvelles fonctionnalités front-end et optimisation des performances pour améliorer l’expérience utilisateur.</p>
+          <p className="mt-3 text-sm font-semibold text-[var(--accent)]">
+      Résultat : <span className="text-green-500 font-bold">sites performants et à jour</span>
+    </p>
+        </>        
+      ),
       techno: ["HTML", "CSS", "SASS", "JavaScript", "PrestaShop"]
     },
     {
@@ -84,8 +136,17 @@
         </div>
         
       ),
-      description:
-        "Création d’un portfolio moderne pour présenter mes projets, compétences et expériences.",
+      description: (
+        <>
+          <p>Conception et développement d’un portfolio moderne pour présenter mes projets, compétences et expériences.</p>
+          <p className="mt-2">Mise en place d’un design responsive avec TailwindCSS, ajout d’un mode sombre et intégration d’animations pour améliorer l’expérience utilisateur.</p>
+            <p className="mt-2">Déploiement sur Vercel pour assurer une accessibilité rapide et fiable.</p>
+            
+          <p className="mt-3 text-sm font-semibold text-[var(--accent)]">
+      Résultat : <span className="text-green-500 font-bold">portfolio professionnel et attractif</span>
+    </p>
+        </>
+      ) ,
       techno:   ["React", "TailwindCSS", "Vite"],
       github: "https://github.com/TaibiZineb/mon-portfolio",
 
@@ -102,7 +163,7 @@
             <div className="flex items-center gap-3 mb-3">{projet.icon}
               <h3 className="text-lg font-bold text-gray-800">{projet.titre}</h3>
             </div>
-            <p className="mt-3 text-gray-600 text-sm leading-relaxed"> {projet.description}</p>
+            <p className="mt-3 text-gray-600 text-sm leading-relaxed whitespace-pre-line"> {projet.description}</p>
             {projet.image && (
               <img src={projet.image} alt={projet.titre} className="w-full h-48 object-cover rounded-xl mb-4"/>
             )}
