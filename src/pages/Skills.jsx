@@ -57,8 +57,8 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-20 px-6 bg-[var(--background)]">
-      <h2 className="text-3xl font-bold text-center text-[var(--accent)] mb-8 max-w-2xl mx-auto">
+    <section data-aos="fade-up" id="skills" className="py-20 px-6 bg-[var(--background)]">
+      <h2 data-aos="fade-up" className="text-3xl font-bold text-center text-[var(--accent)] mb-8 max-w-2xl mx-auto">
         Compétences
       </h2>
 

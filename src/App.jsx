@@ -9,9 +9,16 @@ import Engagement from "./pages/Engagement";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 
 
 export default function App() {
+  useEffect(() => {
+  AOS.init({ duration: 1000 });
+}, []);
   return (
     <div className="bg-[var(--background)] min-h-screen flex flex-col">
       <Navbar />

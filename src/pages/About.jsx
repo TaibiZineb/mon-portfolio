@@ -1,12 +1,12 @@
 import { GraduationCap, Award, Handshake } from "lucide-react";
+import { useEffect } from "react";
+import AOS from "aos";
+
 
 export default function About() {
   return (
-    <section id="about" className="py-20 px-6 bg-[var(--background)]">
-      <h2 className="text-4xl font-bold text-center text-[var(--accent)] mb-10">
-        À propos
-      </h2>
-
+    <section data-aos="slide-right" id="about" className="py-20 px-6 bg-[var(--background)]">
+      <h2 data-aos="fade-up" className="text-4xl font-bold text-center text-[var(--accent)] mb-10"> À propos</h2>
       {/* Bloc présentation */}
       <div className="max-w-5xl mx-auto bg-gradient-to-br from-white to-purple-100 shadow-xl rounded-3xl p-8 md:p-10 text-center leading-relaxed text-gray-700 space-y-6">
         <p>
@@ -42,7 +42,7 @@ export default function About() {
       </div>
 
       {/* Cartes */}
-      <div id="formations"className="mt-12 max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+      <div data-aos="fade-up" id="formations"className="mt-12 max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
         {/* Formations */}
         <div className="bg-gradient-to-br from-white to-purple-100 shadow-lg rounded-2xl p-6 hover:shadow-2xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between min-h-[350px]">
            <div className="bg-[var(--accent)]/15 text-[var(--accent)] text-xs px-3 py-1 rounded-full font-medium shadow-sm hover:bg-[var(--accent-g)] hover:text-white transition">

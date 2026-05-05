@@ -2,8 +2,8 @@ import { CheckCircle, GithubIcon, LinkedinIcon, Mail, PhoneCall,  Sparkles } fro
 
 export default function Contact() {
   return (
-    <section id="contact" className="bg-[var(--background)] py-20 px-6">
-      <h2 className="text-3xl font-bold text-center text-[var(--accent)] mb-10">
+    <section data-aos="fade-down" id="contact" className="bg-[var(--background)] py-20 px-6">
+      <h2 data-aos="slide-right" className="text-3xl font-bold text-center text-[var(--accent)] mb-10">
         Contact
       </h2>
 
