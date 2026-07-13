@@ -9,37 +9,14 @@ export default function About() {
       <h2 data-aos="fade-up" className="text-4xl font-bold text-center text-[var(--accent)] mb-10"> À propos</h2>
       {/* Bloc présentation */}
       <div className="max-w-5xl mx-auto bg-gradient-to-br from-white to-purple-100 shadow-xl rounded-3xl p-8 md:p-10 text-center leading-relaxed text-gray-700 space-y-6">
-        <p>
-          Diplômée d’un Master en Technologies de l’Information et Sciences des
-          Données, je suis à la recherche d’une opportunité en développement
-          logiciel, idéalement en environnement Full Stack ou applicatif.
-          Passionnée par la conception d’applications web et d’API performantes,
-          j’ai acquis une expérience concrète en développement, optimisation et
-          intégration de solutions en contexte professionnel.
+        <p>Diplômée d’un <strong>Master en Technologies de l’Information et Sciences des Données</strong>, je possède un profil hybride alliant développement logiciel, analyse fonctionnelle et cybersécurité. <br /> Passionnée par la transformation digitale, j’aime concevoir des solutions performantes répondant aux besoins métiers tout en garantissant leur qualité et leur sécurité.
         </p>
+        <p> Au cours de mes expériences, j’ai participé au développement d’applications web, d’API et de solutions de synchronisation de données, tout en intervenant sur l’analyse des besoins, la modélisation UML, la rédaction des spécifications fonctionnelles, des cahiers de tests et des guides utilisateurs.</p>
+        <p>En parallèle, une formation intensive en <strong>cybersécurité</strong> (JobInTech – ENSI) m’a permis de renforcer mes compétences en sécurité applicative, protection des données, supervision des systèmes et bonnes pratiques de sécurité.</p>
+      <p> Actuellement <strong>stagiaire consultante fonctionnelle chez Alexsys Solutions</strong>, j’accompagne les projets digitaux en assurant l’analyse fonctionnelle, la rédaction documentaire et la collaboration entre les équipes métiers et techniques, renforçant ainsi ma double compétence technique et fonctionnelle.</p>
 
-        <p>
-          En parallèle, j’ai suivi une formation intensive de quatre mois en
-          cybersécurité (Jobintech – ENSI), renforçant mes compétences en
-          sécurité applicative, protection des données, supervision des systèmes
-          et bonnes pratiques de sécurité.
-        </p>
-
-        <p>
-          Actuellement en stage en tant que consultante fonctionnelle chez
-          Alexsys Solutions, je contribue à l’analyse des besoins métiers, à la
-          rédaction des spécifications fonctionnelles et à l’accompagnement des
-          projets, me permettant d’acquérir une double compétence technique et
-          fonctionnelle.
-        </p>
-
-        <p>
-          Rigoureuse, autonome et dotée d’un fort esprit d’équipe, je souhaite
-          intégrer une entreprise innovante où je pourrai contribuer activement
-          aux projets techniques tout en développant des solutions performantes
-          et sécurisées.
-        </p>
-      </div>
+      <p> Curieuse, rigoureuse et dotée d’un fort esprit d’équipe, je suis à la recherche d’une opportunité me permettant de contribuer à des projets innovants en tant que <strong>Consultante Fonctionnelle</strong>, <strong>Consultante Technico-Fonctionnelle</strong> ou <strong>Développeuse Full Stack</strong>, tout en poursuivant le développement de mes compétences.</p>
+    </div>
 
       {/* Cartes */}
       <div data-aos="fade-up" id="formations"className="mt-12 max-w-6xl mx-auto grid md:grid-cols-3 gap-8">

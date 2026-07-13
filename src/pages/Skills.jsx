@@ -1,7 +1,25 @@
-import { ShieldCheck, Wrench, Terminal, Code } from "lucide-react";
+import { ShieldCheck, Wrench, Terminal, Code, ClipboardCheck } from "lucide-react";
 
 export default function Skills() {
   const skills = [
+    {
+  category: (
+    <div className="flex items-center gap-3 font-semibold">
+      <div className="bg-[var(--violet-light)] dark:bg-[var(--accent-light)] p-2 rounded-full">
+        <ClipboardCheck size={18} className="text-[var(--accent)]" />
+      </div>
+      Analyse Fonctionnelle
+    </div>
+  ),
+  items: [
+    "Analyse des besoins métiers",
+    "Rédaction des spécifications fonctionnelles",
+    "Modélisation UML",
+    "Cahiers de tests & scénarios de tests",
+    "Tests fonctionnels & recette utilisateur",
+    "Gestion des anomalies"
+  ]
+},
     {
       category: (
         <div className="flex items-center gap-3 font-semibold">
@@ -13,9 +31,9 @@ export default function Skills() {
       ),
       items: [
         "Frontend : HTML5, CSS3, SASS, JavaScript, Angular, React, Tailwind CSS",
-        "Backend : .NET, Java (Spring Boot), PHP, Python (bases), architecture MVC",
+        "Backend : .NET (C#), Java (Spring Boot), PHP, Python (bases)",
         "Mobile : React Native",
-        "API REST",
+        "Architecture & API : API REST ,  Architecture MVC",
         "Bases de données : Oracle, SQL, PL/SQL"
       ]
     },
@@ -48,10 +66,12 @@ export default function Skills() {
         </div>
       ),
       items: [
-        "Git, GitHub, Vercel",
+        "Git, GitHub",
         "TOAD for Oracle",
+         "Vercel",
         "UML, rédaction de cahier des charges",
-        "Travail en méthodologie Agile"
+         "Méthodologie Agile (Scrum)",
+       "Outils bureautiques : Word, Excel, PowerPoint",
       ]
     }
   ];
