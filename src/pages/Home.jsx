@@ -16,7 +16,7 @@ export default function Home() {
             <ShieldCheck size={20} className="text-[var(--accent)]" />Data & Security</span>
         </p>
         <div className="mt-8 flex justify-center">
-          <a href="/TAIBI Zineb_CV.pdf"
+          <a href="/CV_Zineb_Taibi_Technique_Fonctionnel.pdf"
             download className="group inline-flex items-center gap-2 bg-[var(--accent)] text-white px-6 py-3 rounded-xl shadow-md border border-transparent hover:bg-white hover:text-[var(--accent)] hover:border-[var(--accent)] hover:scale-105 transition">
             <FileText size={18} className="animate-bounce text-white group-hover:text-[var(--accent)] transition"/>Télécharger mon CV
           </a>

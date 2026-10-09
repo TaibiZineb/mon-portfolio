@@ -22,17 +22,17 @@
 
 export default function Experience() {
   const experiences = [
-     {  icon: <User size={22} className="text-[var(--accent)]" />,
-      titre: "Stagiaire Consultante Fonctionnelle",
-      
-      entreprise: "Alexsys Solutions - Rabat",
-      date: "30 Mars 2026 – Aujourd'hui",
-      description:
-       "Participation à l’analyse des besoins métiers et à la rédaction des spécifications fonctionnelles.\nRédaction des cahiers de tests et des guides utilisateurs.\nCollaboration avec les équipes techniques pour assurer la bonne mise en œuvre des solutions et le suivi des projets.",
-      techno: "",
-      competences : "Analyse fonctionnelle • SFD • UML • Cahier de tests • Rédaction de documentation",
-      
-    },
+{
+  icon: <User size={22} className="text-[var(--accent)]" />,
+  titre: "Consultante Fonctionnelle – Stage",
+  entreprise: "Alexsys Solutions – Rabat",
+  date: "Mars 2026 – Sept. 2026",
+  description:
+    "Analyse des besoins métier, recueil des exigences et rédaction des spécifications fonctionnelles détaillées.\nPréparation des scénarios et cahiers de tests, exécution des tests fonctionnels, participation à la recette et qualification des anomalies avec les équipes techniques.\nDéveloppement de modules et fonctionnalités frontend avec Angular.\nConception et structuration des données et du back-office avec Directus, puis intégration entre le frontend et le back-office.",
+  techno: "Angular, Directus",
+  competences:
+    "Analyse fonctionnelle • Spécifications fonctionnelles • Cahier de tests • Recette • Qualification des anomalies • Développement Frontend",
+},
     {
       icon: <Database size={22} className="text-[var(--accent)]" />,
       titre: "Stage PFE – Développement & Sécurité Applicative",
